@@ -287,20 +287,21 @@ Offline Storage
 The *SVS* is booted from a Tails USB drive, which has an encrypted persistent
 volume but typically has a fairly limited storage capacity since it's just a USB
 drive. For installations that expect to receive a large volume of submissions,
-we recommend buying an external hard drive that can be encrypted and used to
-store submissions that have been transferred from the *Application Server* to
-the *SVS*.
+we recommend buying an external hard drive that can be used to store submissions
+that have been transferred from the *Application Server* to the *SVS*.
+
+.. include:: includes/encrypting-drives.txt
 
 Backup Storage
 ^^^^^^^^^^^^^^
 
 It's useful to run periodic backups of the servers in case of failure. We
-recommend buying an external hard drive that can be encrypted and used to store
-server backups.
+recommend buying an external hard drive to store server backups.
 
-.. warning:: Since this drive will be connected to the *Admin Workstation* to
-             perform backups, it should *not* be the same drive used for
-             *Offline Storage*.
+Because this drive will be connected to the *Admin Workstation* to perform
+backups, it should *not* be the same drive used for *Offline Storage*.
+
+.. include:: includes/encrypting-drives.txt
 
 Network Switch
 ^^^^^^^^^^^^^^

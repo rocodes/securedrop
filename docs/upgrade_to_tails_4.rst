@@ -31,9 +31,12 @@ to upgrade each workstation USB in turn. This procedure preserves the persistent
 storage volume of each USB drive you upgrade to Tails 4.
 
 Once the upgrade is completed, shut down the *Tails 4 Primary USB* and boot into
-each workstation USB to verify that the upgrades were successful. On the *Secure Viewing Station* USB, the upgrade process is now complete, and no additional configuration is required.
+each workstation USB to verify that the upgrades were successful. On the 
+*Secure Viewing Station* USB, the upgrade process is now complete, and no 
+additional configuration is required.
 
-On the *Admin* and *Journalist Workstation* USBs, set an administrator password on the Tails welcome screen, and update the SecureDrop environment using the
+On the *Admin* and *Journalist Workstation* USBs, set an administrator password 
+on the Tails welcome screen, and update the SecureDrop environment using the
 following commands: ::
 
   cd ~/Persistent/securedrop
@@ -52,7 +55,8 @@ required for the setup process, so you can safely click **Install Only Once**.
 
 If you experience difficulties with this upgrade, please do not hesitate to
 contact us using any of the methods below. If the upgrade failed and you need
-to restore from a backup, see our :ref:`guide for restoring workstations <restore_workstations>`.
+to restore from a backup, see our 
+:ref:`guide for restoring workstations <restore_workstations>`.
 Make sure you restore to a Tails drive using Tails 3.16 before attempting
 another upgrade to Tails 4.
 
